@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>
+<head><section class="hero-preview">
+  <img src="assets/adu-yazan-preview.png" alt="Adu Yazan Preview" class="preview-img">
+</section>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>أني واحد – Abu Yazan</title>
