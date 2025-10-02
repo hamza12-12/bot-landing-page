@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Adu Yazan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="brand-title">⚡ Adu Yazan</h1>
+
+  <img src="assets/adu-yazan-preview.png" alt="Adu Yazan Preview" class="preview-img">
+
+  <a href="https://t.me/YourBotUsername?start=adu" class="subscribe-btn">اشترك الآن</a>
+
+  <audio autoplay loop id="bg-music">
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+  <button onclick="toggleMusic()">🔊</button>
+
+  <script>
+    function toggleMusic() {
+      const music = document.getElementById("bg-music");
+      music.muted = !music.muted;
+    }
+  </script>
+</body>
+</html>
