@@ -1,1 +1,40 @@
 ![Adu Yazan – معاينة سينمائية](assets/adu-yazan-preview.png)
+body {
+  background-color: #0a0a0a;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.brand-title {
+  font-size: 3rem;
+  color: #ff00cc;
+  text-shadow: 0 0 20px #ff00cc;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.8; }
+}
+
+.preview-img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 25px #ff00cc;
+  margin-top: 20px;
+}
+
+.subscribe-btn {
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 0 15px #ff00cc;
+  animation: pulse 2s infinite;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
