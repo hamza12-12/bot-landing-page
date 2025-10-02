@@ -36,4 +36,13 @@ body {
   text-decoration: none;
   display: inline-block;
   margin-top: 20px;
+:root {
+  --background-dark: #0a0a0a;
+  --text-light: #fff;
+}
+
+body {
+  background-color: var(--background-dark);
+  color: var(--text-light);
+}
 }
